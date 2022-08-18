@@ -150,8 +150,8 @@ body {
 /* Button */
 
 .more-btn {
-    /* color: #fff;
-    text-transform: uppercase; */
+    color: #fff;
+    text-transform: uppercase;
     font-family: var(--font);
     background-color: var(--btnColor);
 }
@@ -164,12 +164,25 @@ body {
     background: radial-gradient( circle at top, #385a7f, var(--primColor));
 }
 
+.footer-content{
+    position: relative;
+    height: 50vh;
+    height: 100%;
+}
+
+.footer-content .more-btn {
+    position: absolute;
+    bottom: 0;
+
+}
+
 .footer-header {
     font-family: var(--font);
 }
 
 .service-list{
     padding: 15px;
+    font-family: var(--font);
     list-style-image: url('/media/cog.png');
 }
 
@@ -183,11 +196,40 @@ body {
     list-style-image: url('../media/chat.png');
 }
 
-.opp-header{
+.opp-header, .news-header {
     font-size: 12px;
 }
 
-.opp-item {
+.opp-item, .news-text {
     font-family: var(--font);
     font-size: 12px;
+}
+
+.date-div {
+    width: 60px;
+    height: 60px;
+    font-family: var(--font);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.date-div p{
+    margin: 0;
+    padding: 0;
+}
+
+.date-div1{
+    background-color: red;
+
+}
+
+.date-div2{
+    background-color: purple;
+
+}
+
+.date-div3{
+    background-color: teal;
+
 }
