@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="#link" class="top-link">www.demolink.org</a>
+                        <a href="#link" class="top-link d-none d-md-block">www.demolink.org</a>
                     </div>
                     <div class="col-md-6">
                         <ul class="nav top-nav justify-content-center justify-content-md-end">
@@ -53,15 +53,7 @@
                             <a href="#link" class="nav-link btn bottom-nav-link">faqs</a>
                             <a href="#link" class="nav-link btn bottom-nav-link">contacts</a>
                         </nav>
-                        <!-- <nav class="main-nav">
-                            <ul class="nav bottom-nav justify-content-sm-center justify-content-sm-end">
-                                <li class="nav-item bottom-item"><a href="#link" class="nav-link btn bottom-nav-link">home</a></li>
-                                <li class="nav-item bottom-item"><a href="#link" class="nav-link btn bottom-nav-link">about</a></li>
-                                <li class="nav-item bottom-item"><a href="#link" class="nav-link btn bottom-nav-link">services</a></li>
-                                <li class="nav-item bottom-item"><a href="#link" class="nav-link btn bottom-nav-link">faqs</a></li>
-                                <li class="nav-item bottom-item"><a href="#link" class="nav-link btn bottom-nav-link">contacts</a></li>
-                            </ul>
-                        </nav> -->
+
                     </div>
                 </div>
             </div>
@@ -73,7 +65,7 @@
     <main class="main" id="main">
         <section class="section section1">
             <div class="container">
-                <img src="media/hero.jpg" alt="detroix Hero Image" class="hero-img-fluid">
+                <img src="media/hero.jpg" alt="detroix Hero Image" class="hero-img">
                 <div class="sliders">
                     <div class="slider slider1"></div>
                     <div class="slider slider2"></div>
@@ -177,7 +169,7 @@
                     </div>
 
                     <div class="col-sm-4">
-                        <div class="footer content oop-content">
+                        <div class="footer content opp-content">
                             <h2 class="footer-header text-light text-uppercase">opportunities</h2>
                             <ul class="opp-list">
                                 <li class="opp-item">
@@ -201,62 +193,61 @@
                         </div>
                     </div>
 
+                    <!-- ----------------------------------------------------------- -->
+                    <!-- News Items -->
+
                     <div class="col-sm-4">
                         <div class="footer-content news-content">
                             <h2 class="footer-headervfooter-header text-light text-uppercase">news</h2>
                             <div class="container-sm">
-                                <div class="row">
-                                    <div class="col-3">
+                                <ul class="news-list">
+                                    <li class="news-item d-flex justify-content-between">
                                         <div class="date-div date-div1 text-light text-center text-uppercase">
                                             <p class="date h4">21</p>
                                             <p class="month small">nov</p>
                                         </div>
-                                    </div>
-                                    <div class="col-9">
-                                        <h3 class="news-header text-light">Lorem ipsum dolor sit amet.</h3>
-                                        <p class="news-text text-muted">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Animi, quas.</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
+                                        <div class="text-div">
+                                            <h3 class="news-header text-light">Lorem ipsum dolor sit amet.</h3>
+                                            <p class="news-text text-muted">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Animi, quas.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="news-item d-flex justify-content-between">
                                         <div class="date-div date-div2 text-light text-center text-uppercase">
                                             <p class="date h4">21</p>
                                             <p class="month small">nov</p>
                                         </div>
-                                    </div>
-                                    <div class="col-9">
-                                        <h3 class="news-header text-light">Lorem ipsum dolor sit amet.</h3>
-                                        <p class="news-text text-muted">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Animi, quas.</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
+                                        <div class="text-div">
+                                            <h3 class="news-header text-light">Lorem ipsum dolor sit amet.</h3>
+                                            <p class="news-text text-muted">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Animi, quas.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="news-item d-flex justify-content-between">
                                         <div class="date-div date-div3 text-light text-center text-uppercase">
                                             <p class="date h4">21</p>
                                             <p class="month small">nov</p>
                                         </div>
-                                    </div>
-                                    <div class="col-9">
-                                        <h3 class="news-header text-light">Lorem ipsum dolor sit amet.</h3>
-                                        <p class="news-text text-muted">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Animi, quas.</p>
-                                    </div>
-                                </div>
+                                        <div class="text-div">
+                                            <h3 class="news-header text-light">Lorem ipsum dolor sit amet.</h3>
+                                            <p class="news-text text-muted">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Animi, quas.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="btn more-btn text-uppercase text-light">more</button>
                             </div>
-                            <button class="btn more-btn text-uppercase text-light">more</button>
                         </div>
                     </div>
-                </div>
-            </div>
         </section>
 
         <!-- Bottom Footer-->
 
         <section class="bottom-footer">
             <div class="container">
-                <p class="colophon">site by satchwerk&copy;2022</p>
+                <p class="colophon text-muted">site by satchwerk&copy;2022</p>
             </div>
         </section>
     </footer>

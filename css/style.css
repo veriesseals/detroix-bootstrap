@@ -1,9 +1,9 @@
 /* --------------------------------------- */
 /* Global */
 
-*{
+/* *{
     outline: 1px dotted red;
-}
+} */
 
 /* --------------------------------------- */
 /* Root */
@@ -59,7 +59,7 @@ body {
 /* Bottom Nav */
 
 .bottom-nav{
-    padding-top: 30px;
+    padding: 30px 0;
 }
 
 .bottom-nav-link {
@@ -67,7 +67,8 @@ body {
     background-color: var(--primColor);
     color:#ffff;
     font-family: var(--font);
-    /* text-transform: ; */
+    text-transform: uppercase;
+    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
     
 }
 
@@ -157,7 +158,7 @@ body {
 }
 
 /* --------------------------------------- */
-/* Footer */
+/* Top Footer */
 
 .topfooter {
     padding: 50px 0;
@@ -166,8 +167,20 @@ body {
 
 .footer-content{
     position: relative;
-    height: 50vh;
+    height: 60vh;
     height: 100%;
+}
+
+@media (max-width: 576px){
+    .footer-content{
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 577px)and (max-width: 991px){
+    .footer-content {
+        height: 40vh;
+    }
 }
 
 .footer-content .more-btn {
@@ -185,6 +198,7 @@ body {
     font-family: var(--font);
     list-style-image: url('/media/cog.png');
 }
+
 
 .service-item {
     font-size: 12px;
@@ -205,6 +219,12 @@ body {
     font-size: 12px;
 }
 
+@media (max-width: 576px){
+    .service-item, .opp-item, .news-text, .opp-header, .news-header {
+        font-size: 16px;
+    }
+}
+
 .date-div {
     width: 60px;
     height: 60px;
@@ -214,22 +234,39 @@ body {
 
 }
 
-.date-div p{
+.date-div p {
     margin: 0;
     padding: 0;
 }
 
-.date-div1{
+.date-div1 {
     background-color: red;
 
 }
 
-.date-div2{
+.date-div2 {
     background-color: purple;
 
 }
 
-.date-div3{
+.date-div3 {
     background-color: teal;
+
+}
+
+.text-div {
+    width: 70%;
+}
+
+.news-list {
+    padding-left: 0;
+}
+
+/* --------------------------------------- */
+/* Bottom Footer */
+
+.bottom-footer{
+    padding: 20px 0 50px;
+    background-color: #0b1016;
 
 }
