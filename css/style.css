@@ -1,9 +1,9 @@
 /* --------------------------------------- */
 /* Global */
 
-/* *{
+*{
     outline: 1px dotted red;
-} */
+}
 
 /* --------------------------------------- */
 /* Root */
@@ -107,7 +107,7 @@ body {
 }
 
 /* --------------------------------------- */
-/* smart strong stable */
+/* smart strong stable  Section 2*/
 
 .content {
     border-right: 1px solid #777;
@@ -147,6 +147,9 @@ body {
     font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.sect-02-item{
+    margin-bottom: 20px;
+}
 /* --------------------------------------- */
 /* Button */
 
@@ -260,6 +263,10 @@ body {
 
 .news-list {
     padding-left: 0;
+}
+
+#news-more{
+    margin-top: 55px;
 }
 
 /* --------------------------------------- */
